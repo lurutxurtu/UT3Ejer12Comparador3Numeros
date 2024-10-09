@@ -13,14 +13,10 @@ public class Comparador {
     public Comparador(){
         Scanner miScanner = new Scanner(System.in);
         System.out.println("introduce tres numeros a comparar: ");
-        int numero1 = miScanner.nextInt();
-        int numero2 = miScanner.nextInt();
-        int numero3 = miScanner.nextInt();
+        this.numero1 = miScanner.nextInt();
+        this.numero2 = miScanner.nextInt();
+        this.numero3 = miScanner.nextInt();
         miScanner.close();
-
-        this.numero1 = numero1;
-        this.numero2 = numero2;
-        this.numero3 = numero3;
 
     }
 
